@@ -1,0 +1,22 @@
+.container{
+    width: 40%;
+    margin: 50px auto;
+}
+span{
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+    line-height: 80%;
+    display: inline-block;
+    margin: 3px
+}
+li{
+    width: 200px;
+    position: relative;
+}
+li:nth-child(odd){
+    background-color: cornflowerblue;
+}
+li:nth-child(even){
+    background-color: lightblue;
+}
